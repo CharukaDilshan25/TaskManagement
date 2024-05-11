@@ -4,27 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:circularflow_radiusInDP="5dp"
-    tools:context=".OnBoard1">
-
+    tools:context=".OnBoard2">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/onboarding_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/onboarding_2" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="224dp"
         android:layout_height="285dp"
-        android:text="Let's Create a Space For Your Workflow"
+        android:text="Manage Your Task And Ideas Quickly"
         android:textColor="#2C2C2C"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -33,12 +31,12 @@
         app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831" />
+        app:layout_constraintVertical_bias="0.688" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="179dp"
-        android:layout_height="54dp"
+        android:id="@+id/button2"
+        android:layout_width="308dp"
+        android:layout_height="59dp"
         android:backgroundTint="#307EE1"
         android:text="Get Start"
         android:textColor="#FFFFFF"
@@ -47,23 +45,20 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.878" />
+        app:layout_constraintVertical_bias="0.86" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="50dp"
-        android:layout_height="44dp"
-        android:rotationY="174"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#307EE1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintHorizontal_bias="0.77"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746"
-        app:srcCompat="?attr/homeAsUpIndicator" />
-
-
+        app:layout_constraintVertical_bias="0.896" />
 </androidx.constraintlayout.widget.ConstraintLayout>
